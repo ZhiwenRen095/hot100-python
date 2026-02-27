@@ -10,6 +10,9 @@ auth_token.py
 *.py[cod]
 *$py.class
 
+# 忽略 PyCharm/IntelliJ 的项目配置文件
+.idea/
+
 # 忽略 VS Code 的配置文件夹
 .vscode/
 

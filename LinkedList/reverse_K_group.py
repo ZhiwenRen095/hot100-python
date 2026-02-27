@@ -4,6 +4,7 @@
 #         self.val = val
 #         self.next = next
 from list_node import ListNode
+from collections import deque
 
 class Solution(object):
     def reverseKGroup(self, head, k):
@@ -12,7 +13,7 @@ class Solution(object):
         :type k: int
         :rtype: Optional[ListNode]
         """
-        stack = []
+        stack = deque()
         dummy = ListNode(-1)
         prev = dummy
         while head:
